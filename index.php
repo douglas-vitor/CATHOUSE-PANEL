@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Cat House - Panel</title>
 <?php
     // N = RELE(GPIO Name) N = ACAO
@@ -76,50 +77,66 @@
 
         <div class="rele1">
         <span>Rele 01</span>
+        <div>
         <button name="10" value="10">On</button>
         <button name="11" value="11">Off</button>
+        </div>
         </div>
 
         <div class="rele2">
         <span>Rele 02</span>
+        <div>
         <button name="20" value="20">On</button>
         <button name="21" value="21">Off</button>
+        </div>
         </div>
 
         <div class="rele3">
         <span>Rele 03</span>
+        <div>
         <button name="30" value="30">On</button>
         <button name="31" value="31">Off</button>
+        </div>
         </div>
 
         <div class="rele4">
         <span>Rele 04</span>
+        <div>
         <button name="40" value="40">On</button>
         <button name="41" value="41">Off</button>
+        </div>
         </div>
 
         <div class="rele5">
         <span>Rele 05</span>
+        <div>
         <button name="50" value="50">On</button>
         <button name="51" value="51">Off</button>
+        </div>
         </div>
 
         <div class="rele6">
         <span>Rele 06</span>
+        <div>
         <button name="60" value="60">On</button>
         <button name="61" value="61">Off</button>
+        </div>
         </div>
 
         <div class="rele7">
         <span>Rele 07</span>
+        <div>
         <button name="70" value="70">On</button>
         <button name="71" value="71">Off</button>
+        </div>
         </div>
 
         <div class="rele8">
         <span>Rele 08</span>
+        <div>
         <button name="80" value="80">On</button>
         <button name="81" value="81">Off</button>
+        </div>
         </div>
 
         </form>

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    border: none;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+body {
+    background-image: url("");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container header {
+    width: 100%;
+}
+.container header h1 {
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: 900;
+    margin: 0 0 15px 0;
+}
+
+.container main form {
+    width: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+/* RELEs */
+.rele1,
+.rele2,
+.rele3,
+.rele4,
+.rele5,
+.rele6,
+.rele7,
+.rele8 {
+    background-color: black;
+    border: 1px solid #424242;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.rele1:hover,
+.rele2:hover,
+.rele3:hover,
+.rele4:hover,
+.rele5:hover,
+.rele6:hover,
+.rele7:hover,
+.rele8:hover {
+    border-radius: 0;
+    border: 1px solid #ff0000;
+    background: none;
+}
+.rele1 span,
+.rele2 span,
+.rele3 span,
+.rele4 span,
+.rele5 span,
+.rele6 span,
+.rele7 span,
+.rele8 span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    margin: 5px 10px;
+    text-transform: uppercase;
+}
+.rele1 > div,
+.rele2 > div,
+.rele3 > div,
+.rele4 > div,
+.rele5 > div,
+.rele6 > div,
+.rele7 > div,
+.rele8 > div {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
+.rele1 div button,
+.rele2 div button,
+.rele3 div button,
+.rele4 div button,
+.rele5 div button,
+.rele6 div button,
+.rele7 div button,
+.rele8 div button {
+    height: 5em;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px solid #424242;
+}
+.rele1:hover div button,
+.rele2:hover div button,
+.rele3:hover div button,
+.rele4:hover div button,
+.rele5:hover div button,
+.rele6:hover div button,
+.rele7:hover div button,
+.rele8:hover div button {
+    border: 1px solid #ffffff;
+}
+.rele1 div button:hover,
+.rele2 div button:hover,
+.rele3 div button:hover,
+.rele4 div button:hover,
+.rele5 div button:hover,
+.rele6 div button:hover,
+.rele7 div button:hover,
+.rele8 div button:hover {
+    border: 1px solid #ff0000;
+    background: none;
+}
